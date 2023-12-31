@@ -612,6 +612,12 @@ footer .text span a:hover {
     height: 1200px;
   }
 }
+@media (max-width: 924px) {
+  nav.sticky {
+    font-size: 8px;
+    display: flex;
+  }
+}
 .header1 {
   display: flex;
   justify-content: right;
