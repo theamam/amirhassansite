@@ -657,7 +657,6 @@ footer .text span a:hover {
   margin: auto;
   transition: all 0.4s ease-in-out;
 }
-@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap");
 /* start footer code */
 :root {
   --footer-background: white;
@@ -808,7 +807,7 @@ footer {
   width: 50px;
 }
 
-/*? Footer bottom */
+/* Footer bottom */
 
 .footer-bottom {
   text-align: center;
