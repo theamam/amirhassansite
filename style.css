@@ -39,10 +39,9 @@ nav {
 }
 
 nav.sticky {
-  background: #ab1414;
-  padding: 13px 0;
+  padding: 3px 0;
   border-radius: 35px;
-  height: 60px;
+  height: 57px;
   width: 98%;
   padding-right: 15px;
   padding-left: 15px;
@@ -50,6 +49,28 @@ nav.sticky {
   margin-left: auto;
   align-items: center;
   right: 10px;
+}
+.navbar {
+  background: #0e2431;
+  padding: 13px 0;
+  border-radius: 35px;
+  height: 57px;
+  width: 98%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  right: 10px;
+}
+
+.navbar .menu a:hover {
+  color: #ab1414;
+  font-size: 19px;
+}
+nav.sticky:hover {
+  color: #ab1414;
+  font-size: 19px;
 }
 
 nav .navbar {
@@ -60,7 +81,6 @@ nav .navbar {
   margin: auto;
   position: relative;
 }
-
 nav .navbar .logo a {
   font-weight: 500;
   font-size: 35px;
@@ -87,11 +107,6 @@ nav .navbar .menu li {
   color: white;
   padding: 6px 0;
   transition: all 0.4s ease;
-}
-
-.navbar .menu a:hover {
-  color: #ab1414;
-  font-size: 20px;
 }
 
 nav.sticky .menu a {
@@ -627,13 +642,15 @@ footer .text span a:hover {
   display: flex;
 }
 .button-h {
-  background-color: #0e2431;
+  background-color: #084569;
   color: #f1f1f1;
   border-radius: 10px;
   width: 80px;
   height: 30px;
   margin: 3px;
   border: none;
+  text-align: center;
+  vertical-align: center;
 }
 .button-h:hover {
   background-color: yellow;
@@ -641,8 +658,8 @@ footer .text span a:hover {
   width: 100px;
   border: #6e93f7;
   direction: ltr;
-  transition-duration: 0.3s;
   display: inline-block;
+  transition: all 500ms linear;
 }
 .topic1 {
   font-size: 20px;
@@ -660,13 +677,6 @@ footer .text span a:hover {
   transition-duration: 0.3s;
   transition-timing-function: ease-in;
   display: inline-block;
-}
-.text-two:hover {
-  font-size: 90px;
-  display: inline-block;
-  transition-duration: 0.3s;
-  margin: auto;
-  transition: all 0.4s ease-in-out;
 }
 /* start footer code */
 :root {
