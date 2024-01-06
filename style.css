@@ -51,7 +51,7 @@ nav.sticky {
   right: 10px;
 }
 .navbar {
-  background: #0e2431;
+  background: #ab1414;
   padding: 13px 0;
   border-radius: 35px;
   height: 57px;
@@ -65,7 +65,7 @@ nav.sticky {
 }
 
 .navbar .menu a:hover {
-  color: #ab1414;
+  color: #111420;
   font-size: 19px;
 }
 nav.sticky:hover {
